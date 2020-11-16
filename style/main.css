@@ -43,6 +43,52 @@ header .logo {
     color: #fff;
 }
 
+.secundary-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+} 
+
+.nav-element {
+    margin: 10px;
+}
+
+.bottom-nav {
+    background-color: #141414;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+ion-icon, i {
+    color: #e5e5e5;
+    background-color: #141414;
+    font-size: 16px;
+    --ionicon-stroke-width: 50px;
+}
+
+.kids a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.account-menu a img {
+    width: 30px;
+    height: 100%;
+}
+
+.account-menu .caret {
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
 /* Main Move */
 
 .main-move {
@@ -104,4 +150,5 @@ header .logo {
 
 .carousel-moves {
     margin-top: 5px;
+    margin-left: 20px;
 }
